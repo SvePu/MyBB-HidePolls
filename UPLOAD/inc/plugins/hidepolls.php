@@ -58,14 +58,14 @@ function hidepolls_activate()
 			'title' => 'Group Select',
 			'description' => 'Choose groups where the polls will be hidden.',
 			'optionscode' => "groupselect",
-			'value' => '-1',
+			'value' => '1,7',
 			'disporder' => 3
 		),
 		'hidepolls_infobox' => array(
 			'title' => 'Info Box for Hidden Polls',
 			'description' => 'Enter an info text for the hidden poll - this will be shown instead of the poll .... leave it blank to disable the info box.',
 			'optionscode' => "textarea",
-			'value' => '',
+			'value' => 'Poll is hidden!',
 			'disporder' => 3
 		)
 	);
